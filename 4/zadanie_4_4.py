@@ -1,0 +1,1 @@
+import numpy as npX = np.random.randint(100, size = (128, 128))Y = np.random.randint(100, size = (128, 128))Z = np.random.randint(1, size = (128, 128))for i in range(128):    for j in range(128):        Z[i][j] = X[i][j] + Y[i][j]print(X, "\n", Y, "\n", Z, "\n")

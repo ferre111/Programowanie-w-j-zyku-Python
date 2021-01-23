@@ -1,0 +1,1 @@
+import randomnumbers = [random.randint(0, 100) for x in range(50)]numbers_copy = numbersprint(numbers)swap_flag = Truewhile swap_flag:    swap_flag = False    for i in range(len(numbers) - 1):        if numbers[i] < numbers[i + 1]:            numbers[i], numbers[i + 1] = numbers[i + 1], numbers[i]            swap_flag = Trueprint(numbers)print(numbers_copy)
